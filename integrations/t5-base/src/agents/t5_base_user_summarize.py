@@ -1,7 +1,6 @@
 from uagents import Agent, Context, Protocol
 from messages.t5_base import SummarizationRequest, SummarizationResponse, Error
 from uagents.setup import fund_agent_if_low
-import base64
 import os
 
 # Replace this input with the text you want to summarize

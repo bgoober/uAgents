@@ -3,7 +3,6 @@ from messages.t5_base import TranslationRequest, TranslationResponse, Summarizat
 from uagents.setup import fund_agent_if_low
 import os
 import requests
-import base64
 
 # Get the HUGGING_FACE_ACCESS_TOKEN from environment variable or default to a placeholder string if not found.
 HUGGING_FACE_ACCESS_TOKEN = os.getenv(
